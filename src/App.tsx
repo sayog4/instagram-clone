@@ -1,9 +1,11 @@
 import React from 'react'
+import './index.css'
+import { Feed } from './pages/Feed'
 
 function App() {
   return (
     <div>
-      <h1>Hello world</h1>
+      <Feed />
     </div>
   )
 }
